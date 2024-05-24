@@ -4,7 +4,7 @@ This code allows the implementation of the Bomb Risk Elicitation Task (BRET), as
 
 ## Description
 
-This implementation sets up the BRET in Qualtrics using HTML and JavaScript, enabling participants to interact with a matrix of clickable boxes, some of which hide bombs. Participants can click on boxes to accumulate potential earnings, but if they click on a bomb, they lose the earnings for that round. The task can be configured to operate under risk (where the probability of each outcome is known) or ambiguity (where the probability is unknown).
+This implementation sets up the BRET in Qualtrics using HTML and JavaScript, enabling participants to interact with a matrix of clickable boxes, some of which hide bombs. Participants can click on boxes to accumulate potential earnings, but if they click on a bomb, they lose the earnings for that round. The task can be configured to operate under risk (where the probability is known (1 bomb in total) or ambiguity (0,1,2 bombs with unknown probability for each case).
 
 Additionally, for rounds under ambiguity, participants are required to complete a belief elicitation task where they estimate the number of bombs hidden in the matrix. This is done by assigning percentage points to three alternatives (0, 1, or 2 bombs) to reflect their beliefs about the likelihood of each alternative.
 
