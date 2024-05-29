@@ -1,7 +1,7 @@
 # BERT_SRP_Task
 
 This code allows the implementation of the Bomb Risk Elicitation Task (BRET), as proposed by Crosetto/Filippin (2013), Journal of Risk and Uncertainty (47): 31-65, as a Qualtrics application under both risk and uncertainty.
-
+The link to the preprint is here: Kirchler, Benjamin and Kirchler, Erich, Social Reference Points Shape Decisions Under Uncertainty. Available at SSRN: https://ssrn.com/abstract=4843941 or http://dx.doi.org/10.2139/ssrn.4843941
 ## Description
 
 This implementation sets up the BRET in Qualtrics using HTML and JavaScript, enabling participants to interact with a matrix of clickable boxes, some of which hide bombs. Participants can click on boxes to accumulate potential earnings, but if they click on a bomb, they lose the earnings for that round. The task can be configured to operate under risk (where the probability is known (1 bomb in total) or ambiguity (0,1,2 bombs with unknown probability for each case).
